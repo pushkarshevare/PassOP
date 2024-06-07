@@ -1,0 +1,24 @@
+.footer{
+    padding: 5px;
+    background-color: rgb(69, 62, 78);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    /* width: 100%; */
+}
+.footer .logo{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .logo span{
+    color: rgb(76, 247, 25);
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

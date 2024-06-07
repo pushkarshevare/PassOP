@@ -1,0 +1,45 @@
+.navbar{
+    background-color: rgb(69, 62, 78);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5rem;
+}
+.navbar .logo{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar .logo span{
+    color: rgb(76, 247, 25);
+}
+.navbar li{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar button{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(182, 252, 160);
+    border-radius: 2rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar button img{
+    /* filter: invert(1); */
+    width: 2.25rem;
+    padding: 0.25rem;
+}
+.navbar button span{
+    font-weight: 700;
+    padding: 0 0.5rem;
+    color: black;
+}
