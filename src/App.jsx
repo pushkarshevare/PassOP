@@ -1,6 +1,6 @@
 
 import './App.css'
-import Footer from './component/Footer/Footer'
+// import Footer from './component/Footer/Footer'
 import Manager from './component/Manager/Manager'
 import Navbar from './component/Navbar/Navbar'
 
@@ -13,7 +13,7 @@ function App() {
 
       <Manager />
       </div>
-      <Footer />
+{/*       <Footer /> */}
     </>
   )
 }
