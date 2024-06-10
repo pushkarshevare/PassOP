@@ -140,7 +140,7 @@ const Manager = () => {
                                         <a href={item.site} target='_blank' >{item.site}</a>
                                         <span onClick={()=>{copyText(item.site)}}>
                                          <lord-icon
-                                        src="https://cdn.lordicon.com/lyrrgrsl.json"
+                                        src="https://cdn.lordicon.com/iykgtsbt.json"
                                         trigger="hover"
                                         style={{"width":"20px","height":"20px","paddingLeft":"3px"}}>
                                         </lord-icon>    
@@ -152,7 +152,7 @@ const Manager = () => {
                                 <div className="icon" onClick={()=>{copyText(item.username)}}>
                                     {item.username}
                                     <lord-icon
-                                    src="https://cdn.lordicon.com/lyrrgrsl.json"
+                                    src="https://cdn.lordicon.com/iykgtsbt.json"
                                     trigger="hover"
                                     style={{"width":"20px","height":"20px","paddingLeft":"3px"}}>
                                     </lord-icon>    
@@ -161,7 +161,7 @@ const Manager = () => {
                                     <div className="icon" onClick={()=>{copyText(item.password)}}>
                                         {item.password}
                                         <lord-icon
-                                        src="https://cdn.lordicon.com/lyrrgrsl.json"
+                                        src="https://cdn.lordicon.com/iykgtsbt.json"
                                         trigger="hover"
                                         style={{"width":"20px","height":"20px","paddingLeft":"3px"}}>
                                         </lord-icon>    
