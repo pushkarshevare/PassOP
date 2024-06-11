@@ -113,8 +113,8 @@ const Manager = () => {
                     </div>
                     <button onClick={savePass}>
                         <lord-icon
-                            src="https://cdn.lordicon.com/jgnvfzqg.json"
-                            trigger="hover"
+                           src="https://cdn.lordicon.com/ncitidvz.json"
+                           trigger="hover"
                             >
                         </lord-icon>
                         </button>
