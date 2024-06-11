@@ -159,7 +159,7 @@ const Manager = () => {
                                 </div> </td>
                                 <td className='table-data'>
                                     <div className="icon" onClick={()=>{copyText(item.password)}}>
-                                        {item.password}
+                                        {"*".repeat(item.password.length)}
                                         <lord-icon
                                         src="https://cdn.lordicon.com/iykgtsbt.json"
                                         trigger="hover"
