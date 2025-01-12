@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "start":"npm start",
-    "dev": "vite",
-    "build": "npm run build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+ "scripts": {
+  "start": "vite", // Directly starts the development server
+  "dev": "vite", // Alias for starting the development server
+  "build": "vite build", // Builds the project for production
+  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0", // Linting command
+  "preview": "vite preview" // Previews the production build
+}
+
   },
   "dependencies": {
     "react": "^18.2.0",
