@@ -3,20 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "start": "vite", // Directly starts the development server
-  "dev": "vite", // Alias for starting the development server
-  "build": "vite build", // Builds the project for production
-  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0", // Linting command
-  "preview": "vite preview" // Previews the production build
-}
-
+  "scripts": {
+    "start": "npm run dev", // Alias for the development server
+    "dev": "node ./node_modules/.bin/vite", // Starts the development server using Node.js
+    "build": "node ./node_modules/.bin/vite build", // Builds the project for production
+    "serve": "npx serve -s dist", // Serves the production build using the 'serve' package
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0" // Runs linting
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-toastify": "^10.0.5",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "serve": "^14.2.0" // Added 'serve' for hosting production builds
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
